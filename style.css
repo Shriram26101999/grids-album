@@ -1,0 +1,72 @@
+*{
+
+}
+.container{
+    display: grid;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-color: aquamarine;
+    position: relative;
+  /*  border: 1px solid black */
+   
+}
+
+.mainbox{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    height: 75vh;
+    width: 75vw;
+    grid-gap: 20px;
+    position: relative;
+}
+.box{
+    position: relative;
+    
+}
+
+.box1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+.box6{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.box7{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.box1{
+    background-image: url("kk.jpg");
+    background-size: cover;
+    background-position: fixed;
+   
+}
+.box2{
+    background-image: url("eeeee2.jpg");
+    background-position: -20px -100px;;
+}
+.box3{
+    background-image: url("eeeee2.jpg");
+    background-position: -300px -102px;;
+}
+.box4{
+    background-image: url("eeeeee55.jpg");
+    background-position: -12px -200px;
+}
+.box5{
+    background-image: url("eeeeee55.jpg");
+    background-position: -297px -200px;
+}.box6{
+    background-image: url("duo.jpg");
+    background-position: -90px -5px;
+}
+.box7{
+    background-image: url("eye.jpg");
+    background-position: -80px -135px;
+}
